@@ -28,7 +28,7 @@ Contient des fonctions pour le traitement vidéo et l'extraction des caractéris
 https://colab.research.google.com/drive/127TmPbFmqgPNCnvwOfWUyizulDDJELu1?usp=sharing
 
 **YOLOV5 Custom Trainning (Detection) =>**
-Contient le necessaire pour importer un jeu de données personnalisés à partir de robotflow, puis entrainer un modèle YoloV5 sur ce jeu. Contient aussi ce qu'il faut afin de suivre les entrainements en direct grâce à la plateforme weight and biaise (WandB).
+Contient le necessaire pour importer un jeu de données personnalisés à partir de robotflow, puis entrainer un modèle YoloV5 sur ce jeu. Contient aussi ce qu'il faut afin de suivre les entrainements en direct grâce à la plateforme weight and biases (WandB).
 
 https://colab.research.google.com/drive/1jE2fDWlTREdMXsdHkqJ63_q6nu2Xywxx?usp=sharing
 
