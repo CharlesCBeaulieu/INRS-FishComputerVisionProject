@@ -39,4 +39,4 @@ https://colab.research.google.com/drive/1xqwae8afRIfQo-XvHKN9INI7nseNKGfS?usp=sh
 
 **Me Contacter**
 
-Email: Charles.beaulieu@INRS.ca ou Charles.c.beaulieu@utr.ca
+Email: Charles.beaulieu@INRS.ca ou Charles.c.beaulieu@UQTR.ca
