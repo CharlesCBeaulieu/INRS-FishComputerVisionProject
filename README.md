@@ -10,8 +10,8 @@ Institut National de la Recherche Scientifique Centre Eau Terre Environnement Qu
 Charles BEAULIEU
 
 **Sous la Direction des Professeurs :** 
-Normand BERGERON (INRS)
-Erwan GLOAGUEN (INRS)
+Normand BERGERON (INRS),
+Erwan GLOAGUEN (INRS),
 Usef FAGHIHI (UQTR)
 
 Ce travail est rédigé dans le cadre de mon stage de l’été 2022 au sein de l’INRS (Institut National de la Recherche Scientifique). Le projet vise à développer une application d’apprentissage profond permettant la détection, l'identification, la classification et la journalisation automatisé des poissons sur les images vidéo.
