@@ -1,0 +1,3 @@
+Ce dossier contient les poids d'entrainement.
+
+Les meilleurs poids sont : weight/ML_model_fish_augmentation/best.pt
