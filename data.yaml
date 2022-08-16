@@ -1,8 +1,0 @@
-names:
-- esturgeon
-- chervalier blanc
-- etc. 
-nc: (number of class)
-train: path
-val: path
-test: path
