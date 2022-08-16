@@ -36,3 +36,7 @@ https://colab.research.google.com/drive/1jE2fDWlTREdMXsdHkqJ63_q6nu2Xywxx?usp=sh
 Contient ce qu'il faut pour combiner notre modèle YoloV5 déjà entrainer avec le modèle StrongSort qui prend en charge le tracking des objets. De plus, ce noteBook prend en charge le comptage des individu à l'aide d'un ficher Track.py modifier (il est important d'utiliser la version modifier pour que le vidéo comptage fonctionne). 
 
 https://colab.research.google.com/drive/1xqwae8afRIfQo-XvHKN9INI7nseNKGfS?usp=sharing
+
+**Me Contacter**
+
+Email: Charles.beaulieu@INRS.ca ou Charles.c.beaulieu@utr.ca
