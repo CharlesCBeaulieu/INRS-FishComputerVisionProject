@@ -1,42 +1,71 @@
-# INRS-FishComputerVisionProject
+# **INRS - Fish Computer Vision Project** 🐟🎥  
 
-Institut National de la Recherche Scientifique Centre Eau Terre Environnement Québec
+## **Institut National de la Recherche Scientifique (INRS) - Centre Eau Terre Environnement, Québec**  
 
-**Filière** : Science Informatique
+### **Filière** : Science Informatique  
+### **Projet** : Détection, Identification, Classification et Journalisation Automatique des Poissons avec le Machine Learning  
 
-**Projet** : Détection, Identification, Classification et Journalisation Automatique des Poissons dans le Passage des Poissons avec le Machine Learning
+### **Présenté par :**  
+📌 *Charles Beaulieu*  
 
-**Présenté par :** 
-Charles BEAULIEU
+### **Sous la direction des professeurs :**  
+👨‍🏫 *Normand Bergeron (INRS)*  
+👨‍🏫 *Erwan Gloaguen (INRS)*  
+👨‍🏫 *Usef Faghihi (UQTR)*  
 
-**Sous la Direction des Professeurs :** 
-Normand BERGERON (INRS),
-Erwan GLOAGUEN (INRS),
-Usef FAGHIHI (UQTR)
+---
 
-Ce travail est rédigé dans le cadre de mon stage de l’été 2022 au sein de l’INRS (Institut National de la Recherche Scientifique). Le projet vise à développer une application d’apprentissage profond permettant la détection, l'identification, la classification et la journalisation automatisé des poissons sur les images vidéo.
+## **À propos du projet** 🎯  
+Ce projet a été réalisé dans le cadre de mon stage d’été 2022 au sein de l’INRS (*Institut National de la Recherche Scientifique*). Il vise à développer une solution d’apprentissage profond pour **la détection, l'identification, la classification et la journalisation automatique des poissons** à partir d’images vidéo capturées dans un passage à poissons.  
 
-Le projet se compose de 3 différents NoteBook (colab)
+Le projet est structuré en **trois notebooks Colab**, chacun ayant un rôle spécifique dans la pipeline de traitement vidéo :  
 
-* Filter Algorithm And More (Filter)
-* YOLOV5 Custom Trainning (Detection)
-* YoloV5 and StrongSort(Tracking)
+1. **📌 Filter Algorithm And More (Prétraitement des vidéos)**
+2. **📌 YOLOv5 Custom Training (Détection des poissons)**
+3. **📌 YOLOv5 & StrongSORT (Tracking et comptage des poissons)**  
 
-**Filter Algorithm And More (Filter) =>**
-Contient des fonctions pour le traitement vidéo et l'extraction des caractéristique des videos et des fichiers, mais principalement la fonction qui permet de trier les données brute "backgound_substraction"
+---
 
-https://colab.research.google.com/drive/127TmPbFmqgPNCnvwOfWUyizulDDJELu1?usp=sharing
+## **📂 Détails des notebooks**  
 
-**YOLOV5 Custom Trainning (Detection) =>**
-Contient le necessaire pour importer un jeu de données personnalisés à partir de robotflow, puis entrainer un modèle YoloV5 sur ce jeu. Contient aussi ce qu'il faut afin de suivre les entrainements en direct grâce à la plateforme weight and biases (WandB).
+### **1️⃣ Filter Algorithm And More (Prétraitement des vidéos) 🎞️**  
+- Contient des **fonctions de traitement vidéo** et d’**extraction des caractéristiques** des vidéos et fichiers.  
+- Implémente la fonction clé **background_substraction** qui permet de trier les données brutes en supprimant l’arrière-plan.  
 
-https://colab.research.google.com/drive/1jE2fDWlTREdMXsdHkqJ63_q6nu2Xywxx?usp=sharing
+🔗 **Lien vers le notebook :**  
+[Colab - Filter Algorithm And More](https://colab.research.google.com/drive/127TmPbFmqgPNCnvwOfWUyizulDDJELu1?usp=sharing)  
 
-**YoloV5 and StrongSort(Tracking) =>**
-Contient ce qu'il faut pour combiner notre modèle YoloV5 déjà entrainer avec le modèle StrongSort qui prend en charge le tracking des objets. De plus, ce noteBook prend en charge le comptage des individu à l'aide d'un ficher Track.py modifier (il est important d'utiliser la version modifier pour que le vidéo comptage fonctionne). 
+---
 
-https://colab.research.google.com/drive/1xqwae8afRIfQo-XvHKN9INI7nseNKGfS?usp=sharing
+### **2️⃣ YOLOv5 Custom Training (Détection des poissons) 🖼️**  
+- Permet d’**importer un jeu de données personnalisé** via **Roboflow**.  
+- Contient les scripts nécessaires pour **entraîner un modèle YOLOv5** sur ce dataset.  
+- Intègre l’outil **Weights & Biases (WandB)** pour **suivre les entraînements en temps réel**.  
 
-**Me Contacter**
+🔗 **Lien vers le notebook :**  
+[Colab - YOLOv5 Custom Training](https://colab.research.google.com/drive/1jE2fDWlTREdMXsdHkqJ63_q6nu2Xywxx?usp=sharing)  
 
-Email: Charles.beaulieu@INRS.ca ou Charles.c.beaulieu@UQTR.ca
+---
+
+### **3️⃣ YOLOv5 & StrongSORT (Tracking et comptage) 🔢**  
+- Associe **YOLOv5** avec **StrongSORT**, un algorithme avancé de **suivi des objets**.  
+- Implémente un système de **comptage automatique des poissons** à l’aide d’un fichier **Track.py modifié**.  
+  ⚠️ *Il est important d’utiliser la version modifiée de ce fichier pour garantir le bon fonctionnement du comptage vidéo !*  
+
+🔗 **Lien vers le notebook :**  
+[Colab - YOLOv5 & StrongSORT](https://colab.research.google.com/drive/1xqwae8afRIfQo-XvHKN9INI7nseNKGfS?usp=sharing)  
+
+---
+
+## **📬 Contact**  
+📧 **Email** :  
+- [Charles.beaulieu@INRS.ca](mailto:Charles.beaulieu@INRS.ca)  
+- [Charles.c.beaulieu@UQTR.ca](mailto:Charles.c.beaulieu@UQTR.ca)  
+
+---
+
+### **📌 Notes complémentaires :**  
+✔️ Ce projet s’inscrit dans une approche **d’automatisation et d’analyse** des flux migratoires des poissons via des méthodes d’**apprentissage profond**.  
+✔️ Il pourrait être amélioré en explorant **d’autres modèles de détection et de suivi**, ainsi qu’en intégrant **des techniques d’optimisation des performances**.  
+
+---
